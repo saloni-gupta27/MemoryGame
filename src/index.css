@@ -1,1 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Outfit:wght@100..900&family=Prata&display=swap');
 @import "tailwindcss";
+
+@layer components{
+    .card-size{
+        @apply size-20 sm:size-32 lg:size-56
+    }      
+}
+.delius {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .prata {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
