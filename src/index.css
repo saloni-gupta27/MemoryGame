@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Outfit:wght@100..900&family=Prata&display=swap');
 @import "tailwindcss";
 
+@theme {
+    --breakpoint-xs: 375px;
+    --breakpoint-sm: 425px;
+    --breakpoint-md: 600px;
+    --breakpoint-lg: 920px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-2xl: 1500px;
+  }
+
 @layer components{
     .card-size{
-        @apply size-20 sm:size-32 lg:size-56
+        @apply size-12 xs:size-16 sm:size-20 md:size-32 lg:size-44 xl:size-56 2xl:size-64
     }      
 }
 .delius {
